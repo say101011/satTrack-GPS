@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SatTrack GPS</title>
+    <style>
+        :root {
+            --bg-color: #070C16;
+            --surface-color: #0F172A;
+            --card-color: #131D33;
+            --border-color: #233554;
+            --neon-cyan: #00E5FF;
+            --neon-green: #10B981;
+            --text-primary: #F1F5F9;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans KR", sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px 24px;
+            margin-bottom: 24px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+        }
+
+        .app-badge {
+            display: inline-block;
+            background: rgba(0, 229, 255, 0.15);
+            color: var(--neon-cyan);
+            border: 1px solid var(--neon-cyan);
+            border-radius: 20px;
+            padding: 4px 14px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .sub-title {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .effective-date {
+            color: var(--neon-green);
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin: 20px 0 24px 0;
+        }
+
+        .lang-btn {
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 8px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn.active {
+            background-color: rgba(0, 229, 255, 0.2);
+            border-color: var(--neon-cyan);
+            color: var(--neon-cyan);
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .summary-card {
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .summary-card h3 {
+            font-size: 16px;
+            color: var(--neon-cyan);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .badge-green {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--neon-green);
+            border-radius: 4px;
+            padding: 2px 8px;
+            font-size: 11px;
+            font-weight: 700;
+        }
+
+        .summary-card p {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        section {
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: var(--neon-cyan);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+        }
+
+        h3.section-sub {
+            font-size: 16px;
+            color: var(--text-primary);
+            margin: 16px 0 8px 0;
+        }
+
+        p, ul {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .contact-box {
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 16px;
+            font-family: monospace;
+            font-size: 13px;
+            color: var(--neon-cyan);
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 12px;
+            margin-top: 32px;
+            padding-bottom: 24px;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="app-badge">SatTrack GPS • com.aistudio.satfinder.krvwpx</div>
+        <h1 id="header-title">개인정보처리방침 (Privacy Policy)</h1>
+        <div class="sub-title">SatTrack GPS - GNSS Satellite Tracker & AR Sky Viewer</div>
+        <div class="effective-date">시행일: 2026년 9월 17일 (Effective Date: Sept 17, 2026)</div>
+    </header>
+
+    <div class="lang-switch">
+        <button class="lang-btn active" onclick="switchLang('ko')">한국어 (Korean)</button>
+        <button class="lang-btn" onclick="switchLang('en')">English</button>
+    </div>
+
+    <!-- 요약 카드 (Summary Cards) -->
+    <div class="summary-grid">
+        <div class="summary-card">
+            <h3>GPS/위치 데이터 <span class="badge-green">온디바이스 전용</span></h3>
+            <p id="sum-loc">실시간 GNSS 위성 궤도 계산 및 레이다 표시에만 사용되며, 서버 전송이나 저장을 절대 하지 않습니다.</p>
+        </div>
+        <div class="summary-card">
+            <h3>카메라 권한 (AR Sky) <span class="badge-green">저장/전송 Zero</span></h3>
+            <p id="sum-cam">증강현실(AR) 위성 조준 화면 표시에만 실시간 처리되며, 사진/영상 저장 또는 외부 전송이 일체 없습니다.</p>
+        </div>
+        <div class="summary-card">
+            <h3>센서 (나침반/자이로) <span class="badge-green">로컬 처리</span></h3>
+            <p id="sum-sensor">실시간 3D Sky 및 나침반 방위각 추적에만 사용되며 프레임 렌더링 즉시 파기됩니다.</p>
+        </div>
+    </div>
+
+    <!-- 한국어 내용 (Korean Content) -->
+    <div id="content-ko">
+        <section>
+            <h2>1. 개요</h2>
+            <p><strong>SatTrack GPS</strong>(이하 "앱")는 사용자의 개인정보를 보호하고 관련 법령(개인정보보호법, GDPR, CCPA) 및 Google Play 개발자 정책을 준수합니다. 본 방침은 앱이 수집, 이용, 보호하는 정보에 대해 명확히 안내합니다.</p>
+        </section>
+
+        <section>
+            <h2>2. 수집 및 이용하는 정보</h2>
+
+            <h3 class="section-sub">가. 정밀 위치 정보 (GNSS / GPS)</h3>
+            <ul>
+                <li><strong>목적:</strong> 수신 가능한 위성(GPS, GLONASS, Galileo, BeiDou, QZSS 등)의 배치 계산, 신호 세기(C/N0) 측정, 2D Radar 및 3D Sky 좌표 렌더링.</li>
+                <li><strong>처리 방식:</strong> 모든 위치 연산은 100% 사용자의 기기(On-Device) 내부에서만 실시간 처리되며, 단 한 번도 서버로 수집, 저장, 전송되지 않습니다.</li>
+            </ul>
+
+            <h3 class="section-sub">나. 카메라 권한 (AR Sky 기능)</h3>
+            <ul>
+                <li><strong>목적:</strong> 실제 하늘 배경 위에 실시간 위성 위치 레이어를 증강현실(AR)로 오버레이 표시.</li>
+                <li><strong>처리 방식:</strong> 카메라 스트림은 즉시 화면에 렌더링되며, 사진 촬영, 비디오 녹화, 서버 수집이 절대 이루어지지 않습니다.</li>
+            </ul>
+
+            <h3 class="section-sub">다. 동작 및 방위 센서 (자이로스코프, 지자기 나침반)</h3>
+            <ul>
+                <li><strong>목적:</strong> 기기의 헤딩 방위각(Azimuth) 및 기울기(Pitch)를 추적하여 3D Sky 및 AR 조준선을 실제 방위에 동기화.</li>
+                <li><strong>처리 방식:</strong> 렌더링 프레임 단위로 기기 내부에서 연산 후 즉시 파기됩니다.</li>
+            </ul>
+
+            <h3 class="section-sub">라. 광고 서비스 (Google AdMob SDK)</h3>
+            <ul>
+                <li>본 앱은 서비스 제공을 위해 Google AdMob 광고 SDK를 포함하고 있습니다.</li>
+                <li>Google AdMob은 정책에 따라 맞춤형 또는 비맞춤형 배너 광고 제공을 위해 익명화된 기기 식별자 및 진단 데이터를 수집할 수 있습니다. 자세한 내용은 <a href="https://policies.google.com/privacy" target="_blank" style="color:var(--neon-cyan);">Google 개인정보처리방침</a>을 참조하십시오.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. 정보의 보유 및 파기</h2>
+            <p>본 앱은 어떠한 개인 식별 정보나 정밀 위치 기록도 외부 서버에 보관하거나 저장하지 않습니다. 권한 사용 해제 시 관련 데이터 처리는 즉시 중단됩니다.</p>
+        </section>
+
+        <section>
+            <h2>4. 아동의 개인정보 보호 (COPPA)</h2>
+            <p>본 앱은 만 13세 미만 아동의 개인 식별 정보를 고의로 수집하지 않으며, 모든 기능은 개인정보 입력 없이 이용 가능합니다.</p>
+        </section>
+
+        <section>
+            <h2>5. 사용자의 권리 및 권한 관리</h2>
+            <p>사용자는 언제든지 안드로이드 기기 설정(설정 &gt; 애플리케이션 &gt; SatTrack GPS &gt; 권한)에서 위치, 카메라 권한을 허용하거나 거부할 수 있습니다.</p>
+        </section>
+
+        <section>
+            <h2>6. 문의처 및 담당자</h2>
+            <p>개인정보처리방침에 대한 문의나 의견이 있으신 경우 아래 연락처로 문의해 주시기 바랍니다.</p>
+            <div class="contact-box">
+                App Name: SatTrack GPS<br>
+                Package ID: com.aistudio.satfinder.krvwpx<br>
+                Developer Email: support@aistudio-satfinder.example.com
+            </div>
+        </section>
+    </div>
+
+    <!-- English Content -->
+    <div id="content-en" class="hidden">
+        <section>
+            <h2>1. Overview</h2>
+            <p><strong>SatTrack GPS</strong> ("the App") is dedicated to protecting your privacy and ensuring transparent data processing in strict compliance with Google Play Developer Policies and global standards (GDPR, CCPA).</p>
+        </section>
+
+        <section>
+            <h2>2. Information Collected & Processing</h2>
+
+            <h3 class="section-sub">A. Precise Location Data (GNSS / GPS)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Used exclusively to compute satellite geometry, signal-to-noise ratios (C/N0), and plot positions on the 2D Radar and 3D Sky views.</li>
+                <li><strong>Processing:</strong> All location processing happens 100% On-Device in real time. Coordinates are never recorded, logged, or transmitted to any remote server.</li>
+            </ul>
+
+            <h3 class="section-sub">B. Camera Access (AR Sky Mode)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Used solely to render real-time satellite orbital layers over your physical camera feed in Augmented Reality.</li>
+                <li><strong>Processing:</strong> No photos, videos, or optical feeds are ever stored, recorded, or transmitted.</li>
+            </ul>
+
+            <h3 class="section-sub">C. Motion & Compass Sensors</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Used to calculate device azimuth heading and pitch tilt for accurate AR reticle alignment.</li>
+                <li><strong>Processing:</strong> Processed locally per frame and discarded immediately.</li>
+            </ul>
+
+            <h3 class="section-sub">D. Advertising (Google AdMob SDK)</h3>
+            <ul>
+                <li>We integrate standard Google Mobile Ads SDK for application monetization.</li>
+                <li>Google may collect anonymized device identifiers and diagnostic data in accordance with <a href="https://policies.google.com/privacy" target="_blank" style="color:var(--neon-cyan);">Google's Privacy Policy</a> to serve policy-compliant ads.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Data Retention & Security</h2>
+            <p>The App does not maintain external databases or store user location histories. Revoking device permissions immediately halts all related local calculations.</p>
+        </section>
+
+        <section>
+            <h2>4. Children's Privacy (COPPA)</h2>
+            <p>The App does not knowingly solicit or collect personally identifiable information from children under the age of 13.</p>
+        </section>
+
+        <section>
+            <h2>5. Contact Information</h2>
+            <p>For questions or privacy inquiries, please contact:</p>
+            <div class="contact-box">
+                App Name: SatTrack GPS<br>
+                Package ID: com.aistudio.satfinder.krvwpx<br>
+                Developer Email: support@aistudio-satfinder.example.com
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2026 SatTrack GPS. All Rights Reserved. Compliant with Google Play Developer Policies.
+    </footer>
+</div>
+
+<script>
+    function switchLang(lang) {
+        const btnKo = document.querySelectorAll('.lang-btn')[0];
+        const btnEn = document.querySelectorAll('.lang-btn')[1];
+        const contentKo = document.getElementById('content-ko');
+        const contentEn = document.getElementById('content-en');
+        const headerTitle = document.getElementById('header-title');
+
+        const sumLoc = document.getElementById('sum-loc');
+        const sumCam = document.getElementById('sum-cam');
+        const sumSensor = document.getElementById('sum-sensor');
+
+        if (lang === 'en') {
+            btnKo.classList.remove('active');
+            btnEn.classList.add('active');
+            contentKo.classList.add('hidden');
+            contentEn.classList.remove('hidden');
+            headerTitle.textContent = "Privacy Policy";
+
+            sumLoc.textContent = "Used strictly on-device to compute real-time satellite orbital vectors. Never transmitted or logged.";
+            sumCam.textContent = "Used exclusively to overlay AR satellites over camera preview. Zero photos or videos stored or transmitted.";
+            sumSensor.textContent = "Used to align 3D Sky reticles with compass azimuth. Discarded immediately after rendering.";
+        } else {
+            btnEn.classList.remove('active');
+            btnKo.classList.add('active');
+            contentEn.classList.add('hidden');
+            contentKo.classList.remove('hidden');
+            headerTitle.textContent = "개인정보처리방침 (Privacy Policy)";
+
+            sumLoc.textContent = "실시간 GNSS 위성 궤도 계산 및 레이다 표시에만 사용되며, 서버 전송이나 저장을 절대 하지 않습니다.";
+            sumCam.textContent = "증강현실(AR) 위성 조준 화면 표시에만 실시간 처리되며, 사진/영상 저장 또는 외부 전송이 일체 없습니다.";
+            sumSensor.textContent = "실시간 3D Sky 및 나침반 방위각 추적에만 사용되며 프레임 렌더링 즉시 파기됩니다.";
+        }
+    }
+</script>
+
+</body>
+</html>
