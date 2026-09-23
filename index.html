@@ -1,304 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - SatTrack GPS</title>
-    <style>
-        :root {
-            --bg-color: #070C16;
-            --surface-color: #0F172A;
-            --card-color: #131D33;
-            --border-color: #233554;
-            --neon-cyan: #00E5FF;
-            --neon-green: #10B981;
-            --text-primary: #F1F5F9;
-            --text-secondary: #94A3B8;
-            --text-muted: #64748B;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            line-height: 1.6;
-            padding: 32px 16px;
-        }
-
-        .container {
-            max-width: 860px;
-            margin: 0 auto;
-        }
-
-        header {
-            background-color: var(--surface-color);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 36px 28px;
-            margin-bottom: 24px;
-            text-align: center;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-        }
-
-        .app-badge {
-            display: inline-block;
-            background: rgba(0, 229, 255, 0.15);
-            color: var(--neon-cyan);
-            border: 1px solid var(--neon-cyan);
-            border-radius: 20px;
-            padding: 4px 16px;
-            font-size: 13px;
-            font-weight: 600;
-            margin-bottom: 14px;
-            letter-spacing: 0.5px;
-        }
-
-        h1 {
-            font-size: 30px;
-            color: var(--text-primary);
-            margin-bottom: 10px;
-            font-weight: 700;
-        }
-
-        .sub-title {
-            color: var(--text-secondary);
-            font-size: 15px;
-            margin-bottom: 12px;
-        }
-
-        .effective-date {
-            color: var(--neon-green);
-            font-size: 13px;
-            font-weight: 600;
-        }
-
-        .summary-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 16px;
-            margin-bottom: 32px;
-        }
-
-        .summary-card {
-            background-color: var(--card-color);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 20px;
-        }
-
-        .summary-card h3 {
-            font-size: 15px;
-            color: var(--neon-cyan);
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .badge-green {
-            background: rgba(16, 185, 129, 0.2);
-            color: var(--neon-green);
-            border-radius: 4px;
-            padding: 2px 8px;
-            font-size: 11px;
-            font-weight: 700;
-        }
-
-        .summary-card p {
-            font-size: 13px;
-            color: var(--text-secondary);
-            line-height: 1.5;
-        }
-
-        section {
-            background-color: var(--surface-color);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 30px;
-            margin-bottom: 24px;
-        }
-
-        h2 {
-            font-size: 20px;
-            color: var(--neon-cyan);
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 12px;
-            margin-bottom: 18px;
-            font-weight: 600;
-        }
-
-        h3.section-sub {
-            font-size: 16px;
-            color: var(--text-primary);
-            margin: 20px 0 10px 0;
-            font-weight: 600;
-        }
-
-        p, ul {
-            font-size: 14px;
-            color: var(--text-secondary);
-            margin-bottom: 14px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        li strong {
-            color: var(--text-primary);
-        }
-
-        a {
-            color: var(--neon-cyan);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .contact-box {
-            background-color: var(--card-color);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 20px;
-            margin-top: 16px;
-            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-            font-size: 13px;
-            color: var(--neon-cyan);
-            line-height: 1.8;
-        }
-
-        footer {
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 12px;
-            margin-top: 36px;
-            padding-bottom: 24px;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>SatTrack GPS | Privacy Policy</title>
+<style>
+:root{color-scheme:dark;--bg:#0b131d;--card:#142231;--ink:#eef5fa;--muted:#b4c5d3;--line:#304556;--accent:#73e3f1}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.8 system-ui,-apple-system,"Segoe UI",sans-serif;overflow-wrap:anywhere}main{max-width:880px;margin:auto;padding:40px 22px 64px}header{padding-bottom:28px;border-bottom:1px solid var(--line)}.eyebrow{color:var(--accent);letter-spacing:.15em;font-size:12px;font-weight:700}h1{font-size:clamp(28px,6vw,44px);line-height:1.25;margin:12px 0}h2{font-size:22px;margin:32px 0 12px}h3{font-size:17px;margin-bottom:6px}p,li{color:var(--muted)}a{color:var(--accent);text-underline-offset:4px}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.meta{font-size:13px}.notice{padding:18px 20px;margin:24px 0;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px}.notice p{margin:0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{padding:18px;background:var(--card);border:1px solid var(--line);border-radius:12px}.card h3{margin-top:0}.card p{margin-bottom:0;font-size:14px}ul{padding-left:22px}li+li{margin-top:8px}code{font-size:13px;overflow-wrap:anywhere}footer{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}@media(max-width:560px){main{padding:24px 16px 40px}.grid{grid-template-columns:1fr}body{font-size:15px}}
+</style>
 </head>
-<body>
-
-<div class="container">
-    <header>
-        <div class="app-badge">SatTrack GPS • Package ID: com.aistudio.satfinder.krvwpx</div>
-        <h1>Privacy Policy</h1>
-        <div class="sub-title">SatTrack GPS - GNSS Satellite Tracker & AR Sky Viewer</div>
-        <div class="effective-date">Effective Date: March 30, 2025</div>
-    </header>
-
-    <!-- Key Highlights Summary -->
-    <div class="summary-grid">
-        <div class="summary-card">
-            <h3>GPS Location <span class="badge-green">On-Device Only</span></h3>
-            <p>Used strictly in real-time to compute GNSS satellite geometry and plot radar positions. Never saved, logged, or uploaded to any remote server.</p>
-        </div>
-        <div class="summary-card">
-            <h3>Camera Access <span class="badge-green">Zero Storage</span></h3>
-            <p>Used solely to render real-time satellite orbital layers in AR mode over your camera view. No photos or videos are ever captured or transmitted.</p>
-        </div>
-        <div class="summary-card">
-            <h3>Sensors & Heading <span class="badge-green">Local Processing</span></h3>
-            <p>Compass and gyroscope data align the 3D reticle with physical azimuth. Telemetry is discarded immediately after rendering each frame.</p>
-        </div>
-    </div>
-
-    <section>
-        <h2>1. Overview</h2>
-        <p>This Privacy Policy describes how <strong>SatTrack GPS</strong> ("the Application", "we", "us", or "our") handles data when you use our mobile application. We are committed to protecting user privacy and ensuring transparent data processing practices in full compliance with Google Play Developer Policies, the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and global privacy standards.</p>
-    </section>
-
-    <section>
-        <h2>2. Data Collection and Usage</h2>
-        <p>SatTrack GPS is engineered with a privacy-first, on-device architecture. Below are details regarding the device features and permissions utilized by the Application:</p>
-
-        <h3 class="section-sub">A. Precise Location Data (GNSS / GPS)</h3>
-        <ul>
-            <li><strong>Permission Required:</strong> <code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code></li>
-            <li><strong>Purpose:</strong> Used exclusively to access raw GNSS satellite status (GPS, GLONASS, Galileo, BeiDou, QZSS), measure carrier-to-noise density ratio (C/N0), calculate positioning accuracy, and render satellite positions on the 2D Radar, 3D Globe, and AR Sky View.</li>
-            <li><strong>Data Handling:</strong> All location coordinates and satellite telemetry are processed 100% on-device in real time. We do not track location history, log coordinates to disk, or transmit location data to external servers or third parties.</li>
-        </ul>
-
-        <h3 class="section-sub">B. Camera Access (Augmented Reality Sky View)</h3>
-        <ul>
-            <li><strong>Permission Required:</strong> <code>CAMERA</code></li>
-            <li><strong>Purpose:</strong> Used solely to display a live camera preview background for the AR Sky View mode, allowing users to visualize satellite passes aligned with physical sky coordinates.</li>
-            <li><strong>Data Handling:</strong> Optical sensor data is streamed directly to local memory for frame rendering only. The Application does not record video, capture static photos, perform facial or object recognition, or store or transmit camera feeds.</li>
-        </ul>
-
-        <h3 class="section-sub">C. Motion and Orientation Sensors (Compass & Gyroscope)</h3>
-        <ul>
-            <li><strong>Sensors Used:</strong> Rotation Vector, Accelerometer, Magnetometer, Gyroscope</li>
-            <li><strong>Purpose:</strong> Used to determine device orientation (azimuth heading and pitch angle) so that the AR overlay and 3D compass reticle match your physical direction.</li>
-            <li><strong>Data Handling:</strong> Sensor data is evaluated locally on a frame-by-frame basis and is immediately overwritten or discarded. No sensor logs are retained.</li>
-        </ul>
-
-        <h3 class="section-sub">D. Advertising & Analytics (Google AdMob)</h3>
-        <ul>
-            <li><strong>Service Provider:</strong> Google Mobile Ads (AdMob) SDK</li>
-            <li><strong>Purpose:</strong> The Application displays non-intrusive banner advertisements to support ongoing development.</li>
-            <li><strong>Data Collected by Third Parties:</strong> Google AdMob may automatically collect non-personally identifiable diagnostic information, unique device identifiers (such as Android Advertising ID), and crash data in accordance with <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> to deliver policy-compliant, personalized or non-personalized ads.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>3. Data Retention and Security</h2>
-        <p>Because SatTrack GPS does not transmit personal data, user location coordinates, or camera feeds to external servers, we do not maintain central databases of user personal information. All diagnostic calculations take place ephemerally in system memory and cease immediately upon exiting the Application or revoking permissions.</p>
-    </section>
-
-    <section>
-        <h2>4. Third-Party Links & Services</h2>
-        <p>The Application includes third-party ad components provided by Google AdMob. You can learn more about how Google handles ad data by visiting the following resources:</p>
-        <ul>
-            <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy & Terms</a></li>
-            <li><a href="https://policies.google.com/technologies/ads" target="_blank">How Google uses information from sites or apps that use our services</a></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>5. Children's Privacy (COPPA Compliance)</h2>
-        <p>SatTrack GPS does not knowingly collect or solicit personal information from children under the age of 13 (or under 16 in certain European jurisdictions). The Application contains no registration, user accounts, or social sharing capabilities. If you believe that a child has provided us with personal information, please contact us so that we can take appropriate remedial action.</p>
-    </section>
-
-    <section>
-        <h2>6. Your Choices and Permission Controls</h2>
-        <p>You maintain complete control over the permissions granted to SatTrack GPS. You may grant, modify, or revoke permissions at any time through your Android device settings:</p>
-        <ul>
-            <li><strong>Location Permission:</strong> Go to <code>Settings &gt; Apps &gt; SatTrack GPS &gt; Permissions &gt; Location</code> to enable or disable location access.</li>
-            <li><strong>Camera Permission:</strong> Go to <code>Settings &gt; Apps &gt; SatTrack GPS &gt; Permissions &gt; Camera</code> to enable or disable camera access for AR mode.</li>
-        </ul>
-        <p>Please note that revoking Location or Camera permissions will restrict satellite tracking and AR visualization features, though basic offline or simulated modes will remain functional.</p>
-    </section>
-
-    <section>
-        <h2>7. Changes to This Privacy Policy</h2>
-        <p>We may update our Privacy Policy periodically to reflect changes in legal requirements, technical updates, or application features. Any updates will be posted on this page with an updated "Effective Date". We encourage you to review this page periodically for any changes.</p>
-    </section>
-
-    <section>
-        <h2>8. Contact Us</h2>
-        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or data safety practices, please contact us at:</p>
-        <div class="contact-box">
-            Application Name: SatTrack GPS<br>
-            Developer Contact: say101011@gmail.com<br>
-        </div>
-    </section>
-
-    <footer>
-        &copy; 2025-2026 SatTrack GPS. All Rights Reserved. Compliant with Google Play Developer Policies.
-    </footer>
+<body><main>
+<header>
+<div class="eyebrow">SATTRACK GPS · YOUR DATA</div>
+<h1>Privacy Policy</h1>
+<p>How location, camera, sensor, online map and advertising information is handled in SatTrack GPS.</p>
+<div class="meta">Last updated: September 23, 2026 · App version 1.2.2<br>Package: <code>com.aistudio.satfinder.krvwpx</code></div>
+</header>
+<div class="notice"><p><strong>SatTrack GPS is not a fully offline app.</strong><br>GNSS reception, satellite and sensor displays, and AR processing can work without internet access. New map images and advertisements require an internet connection. Your device’s network-based location services may also communicate over the network.</p></div>
+<div class="grid">
+<div class="card"><h3>Location &amp; camera</h3><p>The app processes current location in memory. It does not create location-history logs or record or upload camera footage.</p></div>
+<div class="card"><h3>Online maps &amp; advertising</h3><p>Map requests disclose your IP address and the displayed area to OpenStreetMap. Google’s advertising SDK also handles information under its own policies.</p></div>
 </div>
-
-</body>
-</html>
+<section aria-labelledby="scope"><h2 id="scope">1. Scope</h2>
+<p>This policy describes data handling in the SatTrack GPS Android application. The app does not provide account registration or user accounts. Information processed by map and advertising providers is also subject to their respective privacy policies.</p></section>
+<section aria-labelledby="location"><h2 id="location">2. Location and device permissions</h2>
+<h3>Precise or approximate location</h3>
+<ul><li><code>ACCESS_FINE_LOCATION</code> and <code>ACCESS_COARSE_LOCATION</code> are used to display current location, estimated accuracy, altitude, speed and satellite status. In the Map menu, the app displays your current position and can follow location updates.</li>
+<li>Approximate location permission is supported, but positioning precision and some GNSS satellite information may be limited. The map hides the current-position marker when a recent valid location is unavailable.</li>
+<li>The app subscribes to location updates while it is active in the foreground. It stops its location subscriptions when it goes into the background. It does not store a travel history or coordinate logs in files or on its own server.</li></ul>
+<h3>Camera and orientation sensors</h3>
+<p>Camera permission enables the live preview used by AR Sky View. The app does not capture, save or transmit photos or videos. Orientation sensor readings are used to align radar, 3D and AR displays and are not saved as a separate history.</p>
+<h3>Internet and network state</h3>
+<p><code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code> support online maps, advertising and related network functionality. Android does not show a separate runtime permission prompt for internet access. Data charges may apply according to your service plan.</p></section>
+<section aria-labelledby="maps"><h2 id="maps">3. OpenStreetMap online maps</h2>
+<ul><li><strong>When requests occur:</strong> Opening Map or moving or zooming the map requests the images (tiles) needed for the visible area from <code>https://tile.openstreetmap.org</code>. Leaving the Map menu removes that map view.</li>
+<li><strong>Information disclosed:</strong> The provider receives your IP address, app/browser identification (User-Agent), request time and map tile coordinates (zoom level and grid coordinates). The displayed area may reveal or allow your location to be inferred. The app does not send raw GPS latitude and longitude as separate fields to the tile server.</li>
+<li><strong>Local cache:</strong> WebView may retain map images on your device according to the server’s HTTP caching instructions. Cached imagery can reflect areas you have viewed. You can remove it by clearing the app’s storage in Android settings. The app does not offer bulk map downloads and does not guarantee offline map availability.</li>
+<li><strong>Provider processing:</strong> The OpenStreetMap Foundation (OSMF) and its infrastructure process map requests to deliver maps. Its privacy policy also describes using request records for technical operations, security, service planning and aggregate research. Depending on your location and the network infrastructure, processing may take place outside your country. Provider logging and retention are governed by the provider’s policy; requests are not guaranteed to be processed only temporarily in memory.</li>
+<li><strong>Availability:</strong> This community map service has capacity and usage-policy limits. Access may be interrupted or withdrawn. Map accuracy and continuous service are not guaranteed.</li></ul>
+<p><a href="https://osmfoundation.org/wiki/Privacy_Policy">OSMF Privacy Policy</a> · <a href="https://operations.osmfoundation.org/policies/tiles/">Tile Usage Policy</a></p></section>
+<section aria-labelledby="ads"><h2 id="ads">4. Google Mobile Ads (AdMob)</h2>
+<p>The app includes a Google Mobile Ads banner. The source for this version uses Google test ad identifiers. Test ads can still involve SDK network communication.</p>
+<p>Google’s SDK may collect or share IP addresses (which may be used to estimate general location), device and advertising identifiers, app or ad interactions, and diagnostic information for purposes such as advertising, analytics and fraud prevention. This processing is separate from the app’s in-memory GNSS processing. The app does not supply precise GPS coordinates to the SDK as a separate advertising field.</p>
+<p><a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="https://policies.google.com/technologies/ads">Google advertising information</a> · <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Mobile Ads data disclosure</a></p></section>
+<section aria-labelledby="retention"><h2 id="retention">5. Retention, deletion and your choices</h2>
+<ul><li><strong>Location, sensors and camera:</strong> The app processes these readings in memory for live display. It does not create a server database of these readings or a saved travel history.</li>
+<li><strong>Cached and provider data:</strong> Map caching is managed by WebView and server caching instructions. Provider logs and advertising information may be retained under each provider’s policies.</li>
+<li><strong>Change permissions:</strong> In Android, open Settings → Apps → SatTrack GPS → Permissions to change or withdraw location or camera access. Related features will be limited when access is withdrawn.</li>
+<li><strong>Delete local data:</strong> Clear the app’s storage in Android settings or uninstall the app to remove its local data. This does not delete records already held by external providers.</li>
+<li><strong>Control map traffic:</strong> The app does not request new map tiles when the Map menu is not in use. Advertisements can still communicate from other screens. Disabling the device’s network connection prevents new maps and ads from loading.</li></ul></section>
+<section aria-labelledby="licenses"><h2 id="licenses">6. Map attribution and open-source licenses</h2>
+<p><strong>Map data: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a></strong><br>OpenStreetMap data is available under the <a href="https://opendatacommons.org/licenses/odbl/1-0/">Open Database License (ODbL)</a>. Map images are supplied by OpenStreetMap and are subject to its attribution and usage policies.</p>
+<p><strong>Map library: <a href="https://leafletjs.com/">Leaflet</a> 1.9.4 — BSD 2-Clause</strong><br>Copyright © 2010–2023, Volodymyr Agafonkin. Copyright © 2010–2011, CloudMade. The full license is included in the app’s Map licenses menu and in the distributed <code>app/src/main/assets/map/vendor/LICENSE</code> file. <a href="https://github.com/Leaflet/Leaflet/blob/v1.9.4/LICENSE">Read the Leaflet license</a>.</p>
+<p>AndroidX WebKit is used under the Apache License 2.0; its license is included in the app’s Map licenses menu.</p>
+<p><a href="https://www.openstreetmap.org/fixthemap">Report a map issue</a></p></section>
+<section aria-labelledby="children"><h2 id="children">7. Children and external services</h2>
+<p>The app is intended for users aged 13 and above and is not specifically directed at children under 13. It does not provide account registration or forms for submitting personal information. Map and advertising providers may still process information automatically as described above. Please review their linked policies. This policy does not represent a privacy or regulatory certification of the app or its SDKs.</p></section>
+<section aria-labelledby="contact"><h2 id="contact">8. Contact and policy changes</h2>
+<p>For privacy inquiries, contact the SatTrack GPS developer at <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>. You may also visit the <a href="https://github.com/say101011/satTrack-GPS">SatTrack GPS project page</a>. Do not include precise locations, device identifiers or other personal information in public posts.</p>
+<p>We will update this policy and its revision date when functionality or data handling changes. The website and the policy bundled with the app may reflect different release dates. Check the version and date at the top of this document.</p></section>
+<footer>SatTrack GPS · Privacy and map license information<br>This page loads no external fonts, analytics scripts or tracking images. Opening an external link is subject to the destination site’s policies.</footer>
+</main></body></html>
